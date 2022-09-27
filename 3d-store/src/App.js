@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
-function HomePage() {
+function SearchBar() {
   return (
-    
+    <>
+      <input type="text" placeholder="Search.." className="header__searchBar"/>
+    </>
   );
 }
 
-export default HomePage;
+export default SearchBar;

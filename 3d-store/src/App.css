@@ -58,16 +58,17 @@ body {
 .header{
     background-color: var(--clr-darkAccent)
 }
-    .header__img{
-        grid-area: img;
-        max-width: 100px;
-        display: grid;
-        width: min-content;
-        margin-left: 10px;
-    }
-    .header__nav{
-        
-    }
+  .header__img{
+    grid-area: img;
+    max-width: 100px;
+    display: grid;
+    width: min-content;
+    margin-left: 10px;
+  }
+  .header__searchBar{
+    display: flex;
+    align-items: center;
+  }
 
 
 
