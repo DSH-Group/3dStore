@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-primary: 'Quicksand', sans-serif;
+
+    --fw-reg: 500;
+    --fw-bold: 1000;
+
+    --clr-light: rgb(255, 255, 255);
+    --clr-dark: #000000;
+    --clr-accent: #6d4d88;
+    --clr-darkAccent: #53346d;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.2rem;
+    --header-height: 3rem;
+    
+
+    /* nav styling */
+    --nav-width: 68px;
+    --first-color: #4723D9;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100,
+    
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.02rem;
+    }
+}
+
+
+body {
+    background-image: url(https://img.freepik.com/premium-vector/geometric-pattern-with-connected-line-dots-grey-graphic-background-connectivity-modern-stylish-polygonal-backdrop-your-design-vector-illustration_208588-1410.jpg?w=1380);
+    background-color: rgb(226, 226, 226);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+
+/*-----Navbar-----*/
+.header{
+    background-color: var(--clr-darkAccent)
+}
+    .header__img{
+        grid-area: img;
+        max-width: 100px;
+        display: grid;
+        width: min-content;
+        margin-left: 10px;
+    }
+    .header__nav{
+        
+    }
+
+
+
+/*-------Home page------*/
+
+
+
+
+
+/*------Login Page----------*/
+.store__loginPage{
+    margin: 0;
+    height:75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authentication__box{
+    padding: 1rem;
+    width: 400px;
+    max-width: 400px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255)
+}
+
+.form--hidden{
+    display: none;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--clr-darkAccent);
+    font-size: 2rem;
+}
+
+.form__input-error {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: red;
+}
+.form__input-group{
+    margin-bottom: 5px;
+
+}
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #555;;
+    outline: none;
+    background: #eeeeee;
+}
+.form__input:focus {
+    border-color: var(--clr-darkAccent);
+    background-color: white
+}
+.form__input-error{
+    color:red;
+    border-color: red;
+}
+.form__login-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size:1.1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+    cursor: pointer;
+    background: var(--clr-accent);
+}
+.form__login-button:hover{
+    background: var(--clr-darkAccent);
+}
+.form__login-button:active{
+    transform: scale(0.99);
+}
+.form__text{
+    Text-align: center;
+}
+.form__link{
+    color: var(--clr-darkAccent);
+    text-decoration: none;
+    cursor: pointer;
+}
+.form__link-reg:hover{
+    text-decoration: underline;
+}
+.form__link-creatAccount{
+    display: inline-block;
+    padding: .2em 1em;
+    background: var(--clr-accent);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    border-radius: 10px;
+}
+.form__link-creatAccount:hover{
+    transform: scale(1.1);
+}
+
+/*-----Account Page-----*/
+
+
+
+
+
+
+/*-----Product Page------*/
+
+/*-----extra------*/
+.underConstruction {
+    padding-top: 1em;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    
+}
+
+.footer::before{
+    content: '';
+    display: block;
+    width: 20em;
+    height: 1px;
+    margin: 0.3em auto 1em;
+    background: var(--clr-accent1);
+}
+.footer{
+        padding-top: 10em;
+        padding-bottom: 3em;
+        text-align: center;
+        font-size: 12px;
+        font-style: italic;
+}
