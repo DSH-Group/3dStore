@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Header.css';
-import Header from './Header.js';
+import SearchBar from './Header.js';
 import Body from './Body.js';
 
-const header = ReactDOM.createRoot(document.getElementById('3dStore__Header-SearchBar'));
-header.render(
+const header__searchBar = ReactDOM.createRoot(document.getElementById('3dStore__Header-SearchBar'));
+header__searchBar.render(
   <React.StrictMode>
-    <Header />
+    <SearchBar />
   </React.StrictMode>
 );
 

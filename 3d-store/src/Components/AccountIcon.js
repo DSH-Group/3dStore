@@ -3,7 +3,9 @@ import "./AccountIcon.css";
 
 function AccountIcon() {
   return (
-    <div>AccountIcon</div>
+    <div className="AccountIcon">
+        AccountIcon
+    </div>
   )
 }
 
