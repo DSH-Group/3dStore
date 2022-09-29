@@ -1,6 +1,6 @@
 .search__input {
-    display: grid;
-    
+    display: flex;
+    justify-content: center;
 }
 .search input {
     background-color: white;
@@ -15,7 +15,7 @@
 }
 
 .search__icon {
-    height: 30px;
+    height: 36px;
     width: 30px;
     background-color: white;
     display: grid;

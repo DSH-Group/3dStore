@@ -4,7 +4,7 @@ import './Header.css';
 import Header from './Header.js';
 import Body from './Body.js';
 
-const header = ReactDOM.createRoot(document.getElementById('3dStore__header'));
+const header = ReactDOM.createRoot(document.getElementById('3dStore__Header-SearchBar'));
 header.render(
   <React.StrictMode>
     <Header />
