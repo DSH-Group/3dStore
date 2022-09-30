@@ -1,17 +1,37 @@
 [
     {
-        "Title": "BookShelf",
-        "Auther": "James",
-        "Tags": "Furniture" 
+        "title": "Book Shelf",
+        "auther": "James Bookman",
+        "tags": "furniture" 
     },
     {
-        "Title": "Desk Orginizer",
-        "Auther": "3dMaster",
-        "Tags": ["Furniture", "Desk"] 
+        "title": "Desk Orginizer",
+        "auther": "3dMaster",
+        "tags": ["furniture", "desk"] 
     },
     {
-        "Title": "Macro-Controller",
-        "Auther": "3dMaster",
-        "Tags": ["Furniture", "Desk"] 
+        "title": "Macro-Controller",
+        "auther": "3dMaster",
+        "tags": ["furniture", "desk"] 
+    },
+    {
+        "title": "Custome Logo",
+        "auther": "Deyan Soosai",
+        "tags": ["other"]
+    },
+    {
+        "title": "Car",
+        "auther": "Deyan Soosai",
+        "tags": ["desk", "models"]
+    },
+    {
+        "title": "Wire Holder",
+        "auther": "ComputerGuy",
+        "tags": ["desk"]
+    },
+    {
+        "title": "Fan",
+        "auther":"Deyan Soosai",
+        "tags": ["desk", "other"]
     }
 ]

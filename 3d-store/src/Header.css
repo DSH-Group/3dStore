@@ -15,6 +15,7 @@
     --clr-accent: #6d4d88;
     --clr-darkAccent: #53346d;
     --clr-violet: #8820ad;
+    --clr-lightViolet: #6f00ff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -57,17 +58,23 @@ body {
 
 /*-----Navbar-----*/
 .header{
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--clr-violet)
+    background-color: var(--clr-violet);
+    height: 140px;    
 }
-  .header__img{
-    grid-area: img;
-    max-width: 130px;
-    display: grid;
-    width: min-content;
-    margin-left: 10px;
-  }
+
+    .header__internals{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .header__home-link-img{
+        grid-area: img;
+        max-width: 130px;
+        display: grid;
+        width: min-content;
+        margin-left: 20px;
+    }
+
   
 
 /*-------Home page------*/

@@ -1,0 +1,12 @@
+.AccountIcon{
+    display: grid;
+    width: min-content;
+    margin-top: 32px;
+    margin-right: 20px;
+    color: var(--clr-lightViolet)
+}
+
+.AccountIcon svg {
+    font-size: 60px;
+    
+}
