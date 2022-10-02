@@ -1,6 +1,7 @@
 .search__input {
-    margin-top: 45px;
+    margin-top: 50px;
     display: flex;
+    padding-left: 50px;
 }
 .search input {
     background-color: white;
@@ -11,7 +12,7 @@
     border-bottom-left-radius: 0px;
     font-size: 18px;
     padding: 18px;
-    height: 30px;
+    height: 35px;
     width: 300px;
 }
 
