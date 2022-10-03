@@ -46,8 +46,8 @@
 
 
 body {
-    background-image: url(https://img.freepik.com/premium-vector/geometric-pattern-with-connected-line-dots-grey-graphic-background-connectivity-modern-stylish-polygonal-backdrop-your-design-vector-illustration_208588-1410.jpg?w=1380);
-    background-color: rgb(226, 226, 226);
+    /*background-image: url(https://img.freepik.com/premium-vector/geometric-pattern-with-connected-line-dots-grey-graphic-background-connectivity-modern-stylish-polygonal-backdrop-your-design-vector-illustration_208588-1410.jpg?w=1380); */
+    background-color: rgb(240, 240, 240);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
