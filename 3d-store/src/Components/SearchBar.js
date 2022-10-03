@@ -3,12 +3,6 @@ import './SearchBar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 
-function WordChecker(word){
-  if (word === 0){
-    return false
-  } else { return true; }
-}
-
 
 function SearchBar({placeholder, data}) {
   const [filteredData, setFilteredData] = useState([]);
