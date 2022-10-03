@@ -16,23 +16,7 @@
     --clr-darkAccent: #53346d;
     --clr-violet: #8820ad;
     --clr-lightViolet: #6f00ff;
-    
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1.2rem;
-    --header-height: 3rem;
-    
-
-    /* nav styling */
-    --nav-width: 68px;
-    --first-color: #4723D9;
-    --first-color-light: #AFA5D9;
-    --white-color: #F7F6FB;
-    --body-font: 'Nunito', sans-serif;
-    --normal-font-size: 1rem;
-    --z-fixed: 100,
-    
+        
 }
 
 @media (min-width: 800px) {
