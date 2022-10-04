@@ -1,7 +1,9 @@
 import "./Body.css"
 
-export default function Body() {
+function Body() {
   return (
     <div></div>
   )
 }
+
+export default Body 

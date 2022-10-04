@@ -14,8 +14,8 @@
     --clr-dark: #000000;
     --clr-accent: #6d4d88;
     --clr-darkAccent: #53346d;
-    --clr-violet: #8820ad;
-    --clr-lightViolet: #6f00ff;
+    --clr-violet: #481d8d;
+    --clr-lightViolet: #a200ff;
         
 }
 
@@ -52,11 +52,7 @@ body {
         
     }
     .header__home-link-img{
-        max-width: 130px;
-        display: grid;
-        width: min-content;
-        padding-top: 0px;
-        margin-left: 20px;
+        color: white;
     }
 
   

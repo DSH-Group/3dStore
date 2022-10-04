@@ -1,7 +1,6 @@
 .search__input {
     margin-top: 50px;
     display: flex;
-    padding-left: 50px;
 }
 .search input {
     background-color: white;
